@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Second Milestone Chormium",
+  "short_name": "SMC",
+  "description": "This the second mile stone of chromium",
+  "version": "1.0",
+  "version_name": "- Premsagar gedam",
+  "default_locale": "en",
+  "icons": {
+    "16": "assets/icon_16.png",
+    "36": "assets/icon_36.png",
+    "48": "assets/icon_48.png",
+    "78": "assets/icon_78.png",
+    "96": "assets/icon_96.png",
+    "128": "assets/icon_128.png",
+    "144": "assets/icon_144.png"
+  },
+  "browser_action":{
+    "default_icon": "assets/icon_16.png",
+    "default_popup": "index.html"
+},
+  
+  "permissions": [
+    "storage",
+    "system.cpu",
+    "system.display",
+    "system.memory",
+    "system.storage"
+  ],
+  "externally_connectable": {
+    "matches": ["*://c718.info/*","*://c718.info/index.html"]
+  }
+}

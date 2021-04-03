@@ -1,0 +1,24 @@
+{
+	"name":"MileStone 3",
+	"short_name":"ms3",
+	"start_url":"index.html",
+	"display":"standalone",
+	"background_color":"#5900b3",
+	"theme_color":"black",
+	"scope": ".",
+	"description":"This is a smiple PWA.",
+	"permissions": ["https://api.com/"],
+	"icons":[
+		{
+			"src":"images/icon-192x192.png",
+			"sizes":"192x192",
+			"type":"image/png"
+		},
+		{
+			"src":"images/icon-512x512.png",
+			"sizes":"512x512",
+			"type":"image/png"
+		}
+    ],
+    "Report-To": {"group":"default","max_age":86400,"endpoints":[{"url":"http://c718.info/"}]}
+}
